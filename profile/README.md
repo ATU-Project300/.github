@@ -1,6 +1,6 @@
-# Project 300
+# Odyssey
 
-GitHub organisation for our Project 300 in ATU.
+Repos for Odyssey, our Project 300 in ATU.
 
 ## Goal
 
