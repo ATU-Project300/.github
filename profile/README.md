@@ -6,7 +6,7 @@ Repos for Odyssey, our Project 300 in ATU.
 
 To create a Windows application and website to help users pick the best emulator to play their game of choice.
 
-## The issue
+## The issue aim to solve
 
 Console emulators are always changing. With each update, more games become playable and sometimes issues can arise. Due to this inconsistency, stating that "X emulator is best for playing Y game", may not hold true for very long.
 
