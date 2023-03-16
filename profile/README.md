@@ -15,3 +15,27 @@ This is particularly true with 6th and 7th generation consoles, when many games 
 There are many examples of this such as Red Dead Redemption for the PlayStation 3 and Xbox 360. RPCS3 and Xenia are the emulators used for these consoles, both of which are updated very frequently. As mentioned previously, each update can change the state a given game is in, so it's not easy to declare one emulator better than the other for this particular game.
 
 There may also be issues with a user just not knowing which emulator to use for a particular game, regardless of how many emulators there are or other variables.
+
+## General overview
+
+At the time of writing, the Odyssey website functions as follows:
+
+* Games and Emulators are stored in a NoSQL database.
+
+* The database is accessible via our API.
+
+* The Angular website displays games data via the API.
+
+* Logged in users can rate their experience emulating a game.
+
+* This rating influences the average rating, which is displayed on the site.
+
+...and the WPF desktop app functions as follows:
+
+* Game and Emulator data is read from the API.
+
+* Games data can be viewed in more detail upon clicking a game cover.
+
+* From clicking a game cover, a game can be ran, where its emulator and game files are detected automatically.
+
+* Emulator data is used to allow for downloading emulators from the Emulator section of the app.
